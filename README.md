@@ -30,18 +30,18 @@ Following the preprocessing and cleaning phase we have a total of 532 tradable c
  We don't know what would be the output of the analysis so we are using unsupervised machine learning to identify clusters of the cryptocurrencies.
  We produced the elbow curve below using the K-Means method iterating on k values from 1 to 10.
 
-  The best k value appears to be 4 so we would conclude on an output of 4 clusters to categorize the crytocurrencies.
+  The best k value appears to be 4 so we would conclude on an output of 4 clusters to categorize the crytocurrencies.(elbowcurvefig1)
 
 2.Visualizing Cryptocurrencies Results-
 
   3D-Scatter plot with clusters.
 
-  This 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to three principal components.
+  This 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to three principal components.(3D SCATTER PLOT)
 
 
 3. Tradable Cryptocurrencies Table-Results
 
-   Most of the cryptocurrencies are part of class #0 and #1.
+   Most of the cryptocurrencies are part of class #0 and #1.(tradable crypto table fig 2)
 
 4.2D-Scatter plot with TotalCoinMined vs TotalCoinSupply-results
   
